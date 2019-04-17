@@ -1,0 +1,39 @@
+## Question: Two Mice and Wall
+
+A wall exists between 2 mice (big mice and small mice) with thickness of X meters. The 2 mice starts to dig a hole on the exact same position from their respective sides at the same time
+
+On the first day, both mice managed to dig 1m from their starting point. On the subsequent day however, the big mice managed to dig double its previous day's distance while the small mice managed only half of its previous day's distance.
+
+
+- Big Mice => 1st day 1m -> 2nd day 2m(3m total) -> 3rd day 4m (7m total) and so on
+- Small Mice => 1st day 1m -> 2nd day 0.5m(1.5m total) -> 3rd day 0.25m(1.75m total) and so on
+
+Several days later, two mice finally meet each other in the wall.
+
+Requirement
+1. Use Java 8 to implement the logic.
+  - Use a method with input and output.
+  - Basic validation is needed for the input (should be > 0)
+
+
+2. Create Unit Test cases to test the outputs, such as:
+  - ""Sum of distance dug by both mouse should be equal to thickness of wall""
+  - ""Number of days needed should be in required format""
+  - ""Should throw exception when input is less or equal to 0""
+  - And any others you can think of
+
+Given parameter X as number of meters of the wall, print out how many days do the mice need to dig to be able to meet each other and print out the distances each mouse have gone through.
+
+Input
+One positive double value width. E.g. width = 1.45
+
+Output
+An object containing below contents:
+1. Number of days needed, formatted to string as ""DD days, HH hours, mm minutes, ss seconds"" .
+2. Distance dug by big mouse, formatted to three decimal points. E.g. 43.550.
+3. Distance dug by small mouse, formatted to three decimal points. E.g. 1.949.
+
+
+Notes:
+For unit test, Junit 4 dependency may be needed, if you need other libraries, please specify.
+Only source code is needed to submit, there's no need to include dependent libraries."
